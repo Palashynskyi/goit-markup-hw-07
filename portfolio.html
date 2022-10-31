@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header-line">
+      <div class="container">
+        <div class="flex">
+          <nav class="flex">
+            <a href="./index.html" class="header-logo link flex"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+            <ul class="nav list flex">
+              <li>
+                <a href="./index.html" class="nav-link flex link">Студія</a>
+              </li>
+              <li>
+                <a href="./portfolio.html" class="nav-link flex link current">Портфоліо</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link flex link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Header contacts -->
+          <ul class="auth-nav list flex">
+            <li>
+              <a href="mailto:info@devstudio.com" class="item flex link"
+                ><svg class="icon icon-mail" width="16" height="12">
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="item flex link">
+                <svg class="icon" width="10" height="16">
+                  <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- main nav -->
+      <!-- Work list filter -->
+      <section class="section">
+        <div class="filter">
+          <div class="container">
+            <h2 class="visually-hidden">Наші роботи</h2>
+            <ul class="filter-list list flex">
+              <li class="filter-item">
+                <button type="button" class="filter-button" aria-label="Усі">Усі</button>
+              </li>
+              <li class="filter-item">
+                <button type="button" class="filter-button" aria-label="Веб-сайти">Веб-сайти</button>
+              </li>
+              <li class="filter-item">
+                <button type="button" class="filter-button" aria-label="Додатки">Додатки</button>
+              </li>
+              <li class="filter-item">
+                <button type="button" class="filter-button" aria-label="Дизайн">Дизайн</button>
+              </li>
+              <li class="filter-item">
+                <button type="button" class="filter-button" aria-label="Маркетинг">Маркетинг</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Work list -->
+        <div class="container">
+          <div class="work">
+            <ul class="work-lists link list">
+              <li class="work-item">
+                <a href="#" class="work-link-hover link">
+                  <div class="work-card-thumb">
+                    <img src="./images/techno.jpg" alt="Ноутбук з відкритою веб сторінкою на екрані" width="370" height="294" />
+                    <p class="card-text-overlay">
+                      Ресурс пропонуе комплексні пропозиціі з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                  <div class="work-card">
+                    <h2 class="work-name">Технокряк</h2>
+                    <p class="work-name-item">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item">
+                <a href="#" class="work-link-hover link">
+                  <div class="work-card-thumb">
+                    <img src="./images/orlean.jpg" alt="Дві людини грають в баскетбол" width="370" height="294" />
+                    <p class="card-text-overlay">
+                      Ресурс пропонуе комплексні пропозиціі з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                  <div class="work-card">
+                    <h2 class="work-name">Постер New Orlean vs Golden Star</h2>
+                    <p class="work-name-item">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item">
+                <a href="#" class="work-link-hover link">
+                  <div class="work-card-thumb">
+                    <img src="./images/seafood.jpg" alt="Логотип ресторану" width="370" height="294" />
+                    <p class="card-text-overlay">
+                      Ресурс пропонуе комплексні пропозиціі з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                  <div class="work-card">
+                    <h2 class="work-name">Ресторан Seafood</h2>
+                    <p class="work-name-item">Додаток</p>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item">
+                <a href="#" class="work-link-hover link">
+                  <div class="work-card-thumb">
+                    <img src="./images/prime.jpg" alt="Чорні навушники на сірому фоні" width="370" height="294" />
+                    <p class="card-text-overlay">
+                      Ресурс пропонуе комплексні пропозиціі з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                  <div class="work-card">
+                    <h2 class="work-name">Проєкт Prime</h2>
+                    <p class="work-name-item">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item">
+                <a href="#" class="work-link-hover link">
+                  <div class="work-card-thumb">
+                    <img src="./images/boxes.jpg" alt="Дві картонні коробки" width="370" height="294" />
+                    <p class="card-text-overlay">
+                      Ресурс пропонуе комплексні пропозиціі з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                  <div class="work-card">
+                    <h2 class="work-name">Проєкт Boxes</h2>
+                    <p class="work-name-item">Дадаток</p>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item">
+                <a href="#" class="work-link-hover link">
+                  <div class="work-card-thumb">
+                    <img src="./images/borders.jpg" alt="Екран з відображеним веб-сайтом з аналітикою" width="370" height="294" />
+                    <p class="card-text-overlay">
+                      Ресурс пропонуе комплексні пропозиціі з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                  <div class="work-card">
+                    <h2 class="work-name">Insperation has no Borders</h2>
+                    <p class="work-name-item">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item">
+                <a href="#" class="work-link-hover link">
+                  <div class="work-card-thumb">
+                    <img src="./images/limited.jpg" alt="Відкритий глянцевий журнал" width="370" height="294" />
+                    <p class="card-text-overlay">
+                      Ресурс пропонуе комплексні пропозиціі з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                  <div class="work-card">
+                    <h2 class="work-name">Видання Limited Edition</h2>
+                    <p class="work-name-item">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item">
+                <a href="#" class="work-link-hover link">
+                  <div class="work-card-thumb">
+                    <img src="./images/lab.jpg" alt="Ярлик на якому забражено лого компанії" width="370" height="294" />
+                    <p class="card-text-overlay">
+                      Ресурс пропонуе комплексні пропозиціі з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                  <div class="work-card">
+                    <h2 class="work-name">Проєкт LAB</h2>
+                    <p class="work-name-item">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item">
+                <a href="#" class="work-link-hover link">
+                  <div class="work-card-thumb">
+                    <img src="./images/business.jpg" alt="Людина працює з ноутбуком та на екрані відображений додаток " width="370" height="294" />
+                    <p class="card-text-overlay">
+                      Ресурс пропонуе комплексні пропозиціі з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                  <div class="work-card">
+                    <h2 class="work-name">Growing Business</h2>
+                    <p class="work-name-item">Додаток</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-box">
+        <div class="container footer-container">
+          <div class="footer-box-left">
+            <div class="footer-logo">
+              <a href="./index.html" class="link"><span class="footer-logo-web">Web</span><span class="logo-alter">Studio</span></a>
+            </div>
+            <address>
+              <ul class="footer-list list">
+                <li class="footer-list-item">
+                  <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" title="Google map link" class="mail link">м. Київ, пр-т Лесі Українки, 26</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="mailto:info@devstudio.com" class="footer-item link">info@devstudio.com</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="tel:+380961111111" class="footer-item link">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-box-right">
+            <h2 class="joined-tittle">Приєднуйтесь</h2>
+            <ul class="icon-footer-list flex list">
+              <li>
+                <a href="" class="icon-footer-link">
+                  <svg class="icon" width="20" height="20">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="icon-footer-link">
+                  <svg class="icon" width="20" height="20">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="icon-footer-link">
+                  <svg class="icon" width="20" height="20">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="icon-footer-link">
+                  <svg class="icon" width="20" height="20">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="subscribe">
+            <h2 class="subscribe-tittle">Підпишіться на розсилку</h2>
+            <form class="form-thumb">
+              <label for="" class="subscribe-form">
+                <input type="email" name="email" placeholder="E-mail" />
+              </label>
+              <button type="submit" class="footer-button">
+                Підписатися
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
