@@ -189,7 +189,7 @@ img {
     color: var(--accent-color);
 }
 
-/* mix */
+/* mix nav__item */
 .current {
     color: var(--accent-color);
 }
@@ -281,7 +281,7 @@ img {
     text-align: center;
 }
 
-.hero-tittle {
+.hero__tittle {
     display: block;
     max-width: 696px;
     width: 100%;
@@ -303,6 +303,8 @@ img {
     text-transform: uppercase;
     text-align: center;
 }
+
+/* Modal _________________________ */
 
 .backdrop {
     position: fixed;
@@ -387,6 +389,8 @@ img {
     outline: none;
     transition: border-color var(--tran-dur-and-tim-fun);
 }
+
+/* ____________________________________ */
 
 /* Checkbox */
 .form-label-textarea {
