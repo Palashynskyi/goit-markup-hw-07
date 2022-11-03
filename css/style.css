@@ -189,11 +189,13 @@ img {
     color: var(--accent-color);
 }
 
+/* mix */
 .current {
     color: var(--accent-color);
 }
+/* _______________________________ */
 
-.link.current::after {
+.nav__item.current::after {
     content: "";
     position: absolute;
     display: block;
@@ -229,7 +231,7 @@ img {
     margin-right: 50px;
 }
 
-.item {
+.contact-nav__item {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -244,19 +246,19 @@ img {
     transition: color var(--tran-dur-and-tim-fun);
 }
 
-.item>.icon {
+.contact-nav__icon {
     display: flex;
     margin-right: 10px;
 }
 
-.icon-mail {
+.contact-nav__icon-mail {
     margin-top: 2px;
 }
 
-.item:hover,
-.item:focus {
+.contact-nav__item:hover,
+.contact-nav__item:focus {
     color: var(--accent-color);
-}
+}   
 
 
 
