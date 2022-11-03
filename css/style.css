@@ -163,7 +163,7 @@ img {
     margin-right: 50px;
 }
 
-.nav-item {
+.nav__item {
     position: relative;
     display: block;
     padding-top: 32px;
@@ -184,12 +184,12 @@ img {
     transition: color var(--tran-dur-and-tim-fun);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav__item:hover,
+.nav__item:focus {
     color: var(--accent-color);
 }
 
-
+/* ______________________________________ */
 
 .auth-nav {
     display: flex;
