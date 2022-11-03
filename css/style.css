@@ -390,7 +390,6 @@ img {
     transition: border-color var(--tran-dur-and-tim-fun);
 }
 
-/* ____________________________________ */
 
 /* Checkbox */
 .form-label-textarea {
@@ -558,6 +557,8 @@ img {
     transform: translate(-50%, -50%) scale(0.8);
     transition: transform var(--tran-dur-and-tim-fun);
 }
+
+/* ____________________________________ */
 
 /* Content */
 
