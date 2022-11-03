@@ -189,11 +189,30 @@ img {
     color: var(--accent-color);
 }
 
+.current {
+    color: var(--accent-color);
+}
+
+.link.current::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+    margin-top: 28px;
+
+    background-color: var(--accent-color);
+}
 /* ______________________________________ */
 
-.auth-nav {
+.contact-nav {
     display: flex;
     margin-left: auto;
+
+    list-style: none;
 }
 
 /* Почемуто не работает такой тип записи */
@@ -206,7 +225,7 @@ img {
     margin-left: 340px;
 } */
 
-.auth-nav>li:not(:last-child) {
+.contact-nav>li:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -239,23 +258,7 @@ img {
     color: var(--accent-color);
 }
 
-.current {
-    color: var(--accent-color);
-}
 
-.link.current::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    left: 0;
-    bottom: -1px;
-    border-radius: 2px;
-    margin-top: 28px;
-
-    background-color: var(--accent-color);
-}
 
 /* Index html */
 /* Hero */
