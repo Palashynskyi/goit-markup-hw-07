@@ -233,6 +233,8 @@ img {
 
 .contact-nav__item {
     display: flex;
+    text-decoration: none;
+    color: inherit;
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--primary-text-color);
@@ -246,21 +248,21 @@ img {
     transition: color var(--tran-dur-and-tim-fun);
 }
 
+.contact-nav__item:hover,
+.contact-nav__item:focus {
+    color: var(--accent-color);
+}  
+
 .contact-nav__icon {
     display: flex;
     margin-right: 10px;
+    fill: currentColor;
+
 }
 
 .contact-nav__icon-mail {
     margin-top: 2px;
 }
-
-.contact-nav__item:hover,
-.contact-nav__item:focus {
-    color: var(--accent-color);
-}   
-
-
 
 /* Index html */
 /* Hero */
