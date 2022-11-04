@@ -649,7 +649,7 @@ img {
     color: var(--second-text-color);
 }
 
-.work-item-relative {
+.work-item__overlay {
     position: relative;
     content: "";
 }
@@ -690,32 +690,11 @@ img {
     background-color: var(--second-bg-color);
 }
 
-.about-list {
-    justify-content: space-between;
-}
-
-.about-li {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 94px;
-
-    text-align: center;
-}
-
-.about-li-item {
-    background-color: var(--second-btn-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.about-tittle,
-.about-name {
-    color: var(--second-text-color);
-}
-
-.about-tittle {
+.about__tittle {
     padding-bottom: 50px;
     padding-top: 94px;
+
+    color: var(--second-text-color);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -726,12 +705,32 @@ img {
     letter-spacing: 0.03em;
 }
 
-.about-name-box {
+.about__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.about__item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+
+    text-align: center;
+}
+
+.about__overlay {
+    background-color: var(--second-btn-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.about__box {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.about-name {
+.about__name {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -739,19 +738,22 @@ img {
     line-height: 1.1718;
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--second-text-color);
 }
 
-.about-name-item {
+.about__position {
     margin-top: 10px;
 }
+/* _________________BLOCK__________________ */
 
-.icon-list {
-    margin-top: 16px;
-    justify-content: center;
+.social-list {
     display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 16px;
 }
 
-.icon-social {
+.social-list__link {
     display: flex;
     margin-right: 10px;
     color: var(--icon-prymary-color);
@@ -763,32 +765,19 @@ img {
     transition: background-color var(--tran-dur-and-tim-fun);
 }
 
-.icon-social:hover,
-.icon-social:focus {
+.social-list__link:hover,
+.social-list__link:focus {
     color: var(--second-btn-color);
     background-color: var(--accent-color);
 }
 
-/* Clients */
-.icon-client-link {
-    display: flex;
-    width: 100%;
-    height: 100%;
-
-    border: 1px solid var(--icon-prymary-color);
-    border-radius: 4px;
-    align-items: center;
-    justify-content: center;
-    color: var(--icon-prymary-color);
-    transition: color var(--tran-dur-and-tim-fun);
-}
-
-.icon-client-link:hover,
-.icon-client-link:focus {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
+.social-list__icon {
     fill: currentColor;
 }
+/* ___________________________________________ */
+
+
+/* Clients */
 
 .clients-tittle {
     font-family: 'Roboto';
@@ -802,23 +791,44 @@ img {
 
     color: #212121;
 }
-
-.clients-icon-list {
+/* ________________________________________________ */
+.clients-list {
     display: flex;
+    list-style: none;
 }
 
-.icon-client {
+.client-list__item {
     display: flex;
     height: 92px;
     /* width: calc((100% - 150px) / 6); */
     width: calc(100%/6 - 30px/6*5);
 }
 
-.icon-client:not(:last-child) {
+.client-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.icon {
+.client-list__link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid var(--icon-prymary-color);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    color: var(--icon-prymary-color);
+    transition: color var(--tran-dur-and-tim-fun);
+}
+
+.client-list__link:hover,
+.client-list__link:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    fill: currentColor;
+}
+
+.client-list__icon {
     fill: currentColor;
 }
 
@@ -1038,7 +1048,7 @@ img {
 
 .work-lists {
     display: flex;
-    flex-wrap: wrap;
+    list-style: none;
 }
 
 .work-item {
