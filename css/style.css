@@ -298,7 +298,7 @@ img {
     text-align: center;
 }
 
-/* Modal _________________________ */
+/* ___________Modal ____________________ */
 
 .backdrop {
     position: fixed;
@@ -385,7 +385,7 @@ img {
 }
 
 
-/* Checkbox */
+/* ___________Checkbox _______________*/
 .form-label-textarea {
     display: block;
     text-align: left;
@@ -552,9 +552,8 @@ img {
     transition: transform var(--tran-dur-and-tim-fun);
 }
 
-/* ____________________________________ */
 
-/* Content advantages */
+/* __________Content advantages__________ */
 
 .section_no_padding {
     padding: 94px 0 0 0;
@@ -615,9 +614,10 @@ img {
     justify-content: center;
 }
 
-/* ___________________________________________ */
 
-/* Work list */
+/* ____________Work list____________________ */
+
+
 .content-tittle {
     padding-bottom: 50px;
 
@@ -681,7 +681,7 @@ img {
     color: #FFFFFF;
 }
 
-/* About */
+/* ________About ______________*/
 
 .about {
     width: 100%;
@@ -744,6 +744,8 @@ img {
 .about__position {
     margin-top: 10px;
 }
+
+
 /* _________________BLOCK__________________ */
 
 .social-list {
@@ -774,10 +776,9 @@ img {
 .social-list__icon {
     fill: currentColor;
 }
-/* ___________________________________________ */
 
 
-/* Clients */
+/* _______________Clients_________________ */
 
 .clients-tittle {
     font-family: 'Roboto';
@@ -832,7 +833,7 @@ img {
     fill: currentColor;
 }
 
-/* Footer */
+/* _____________Footer_____________ */
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -876,7 +877,7 @@ img {
     line-height: 1.1923;
     letter-spacing: 0.03em;
 }
-/* __________________________________ */
+/* __________ADREES___________________ */
 
 .adress-list {
     list-style: none;
@@ -924,7 +925,7 @@ img {
     color: var(--accent-color);
 }
 
-/* ______________________________________ */
+/* ____________JOINED______________ */
 
 .joined-tittle {
     font-family: 'Roboto';
@@ -937,13 +938,17 @@ img {
 
     color: #FFFFFF;
 }
+/* ___________BLOCK-2_____ */
 
+/* social-list */
 .icon-footer-list {
     margin-top: 16px;
     justify-content: center;
     display: flex;
+    list-style: none;
 }
 
+/* social-list__link need color modify */
 .icon-footer-link {
     display: flex;
     margin-right: 10px;
@@ -958,13 +963,22 @@ img {
     transition: background-color var(--tran-dur-and-tim-fun);
 }
 
+/* .social-list__link:hover,
+.social-list__link:focus */
 .icon-footer-link:hover,
 .icon-footer-link:focus {
     background-color: var(--accent-color);
 }
 
-/*Footer Subscribe */
-.subscribe {
+/* social-list__icon */
+.social-list__icon {
+    fill: currentColor;
+}
+
+
+/* __________Footer Subscribe_______ */
+
+.subscribe-thumb {
     margin-left: 93px;
 }
 
@@ -980,7 +994,12 @@ img {
     margin-bottom: 20px;
 }
 
-.subscribe input {
+.subscribe-form {
+    display: flex;
+    gap: 12px;
+}
+
+.subscribe-thumb input {
     width: 358px;
     height: 50px;
     padding: 15px 16px;
@@ -994,10 +1013,7 @@ img {
     line-height: 1.15;
 }
 
-.form-thumb {
-    display: flex;
-    gap: 12px;
-}
+/* _________________BUTTON____________________ */
 
 .footer-button {
     display: flex;
@@ -1028,6 +1044,11 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
 }
 
+.footer-button__icon {
+    fill: currentColor;
+}
+
+/*________ PORTFOLIO_______________ */
 
 /* filter-list */
 
