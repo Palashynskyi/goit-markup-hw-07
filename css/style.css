@@ -72,12 +72,6 @@ img {
     padding: 94px 0;
 }
 
-/* Modificator */
-.section_no_padding {
-    padding-top: 94px;
-}
-/* ____________________________ */
-
 .container {
     width: 100%;
     max-width: 1200px;
@@ -560,21 +554,35 @@ img {
 
 /* ____________________________________ */
 
-/* Content */
+/* Content advantages */
 
-.content-features {
+.section_no_padding {
+    padding: 94px 0 0 0;
+}
+
+.advantages {
     width: 100%;
     margin: 0 auto;
 
     background-color: var(--second-btn-color);
 }
 
-.content-tittle,
-.content-features-item {
-    color: var(--second-text-color);
+.advantages__list {
+    display: flex;
+    list-style: none;
 }
 
-.content-features-item {
+.advantages__item {
+    width: calc((100%-90px) / 4);
+}
+
+.advantages__item:not(:last-child) {
+    margin-right: 30px;
+
+    justify-content: space-between;
+}
+
+.advantages__tittle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -582,59 +590,10 @@ img {
     line-height: 1.1721;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--second-text-color);
 }
 
-.content-features-box {
-    width: calc((100%-90px) / 4);
-}
-
-.icon-sat {
-    display: flex;
-    height: 120px;
-    background-color: var(--features-card-bg);
-    border-radius: 4px;
-    margin-bottom: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon-clock {
-    display: flex;
-    height: 120px;
-    background-color: var(--features-card-bg);
-    border-radius: 4px;
-    margin-bottom: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon-diagram {
-    display: flex;
-    height: 120px;
-    background-color: var(--features-card-bg);
-    border-radius: 4px;
-    margin-bottom: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon-astronaut {
-    display: flex;
-    height: 120px;
-    background-color: var(--features-card-bg);
-    border-radius: 4px;
-    margin-bottom: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-.content-features-box:not(:last-child) {
-    margin-right: 30px;
-
-    justify-content: space-between;
-}
-
-.features-text {
+.advantages__text {
     margin-bottom: 0;
     margin-top: 10px;
 
@@ -646,6 +605,19 @@ img {
     letter-spacing: 0.03em;
 }
 
+.advantages__icon {
+    display: flex;
+    height: 120px;
+    background-color: var(--features-card-bg);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ___________________________________________ */
+
+/* Work list */
 .content-tittle {
     padding-bottom: 50px;
 
@@ -657,9 +629,6 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
 }
-
-/* Work list */
-
 .work-list {
     display: flex;
     justify-content: space-between;
@@ -674,6 +643,10 @@ img {
     margin: 0 auto;
 
     background-color: var(--second-btn-color);
+}
+
+.content-tittle {
+    color: var(--second-text-color);
 }
 
 .work-list-relative {
