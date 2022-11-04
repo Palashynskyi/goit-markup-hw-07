@@ -629,12 +629,12 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.work-list {
+.work-item {
     display: flex;
     justify-content: space-between;
 }
 
-.work-list:not(:last-child) {
+.work-item:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -649,12 +649,12 @@ img {
     color: var(--second-text-color);
 }
 
-.work-list-relative {
+.work-item-relative {
     position: relative;
     content: "";
 }
 
-.work-list-comment {
+.work-item-comment {
     display: flex;
     position: absolute;
     content: "";
@@ -664,7 +664,7 @@ img {
     background: rgba(47, 48, 58, 0.8);
 }
 
-.work-list-text {
+.work-item-text {
     display: flex;
     width: 100%;
     align-items: center;
