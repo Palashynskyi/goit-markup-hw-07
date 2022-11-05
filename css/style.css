@@ -66,8 +66,6 @@ img {
     display: flex;
 }
 
-
-
 .section {
     padding: 94px 0;
 }
@@ -140,9 +138,6 @@ img {
 
 /* Site nav _______________________________________________*/
 
-/* .nav-box {
-    display: flex;
-} */
 .nav {
     display: flex;}
 
@@ -183,7 +178,6 @@ img {
     color: var(--accent-color);
 }
 
-/* mix nav__item */
 .nav__item--current {
     color: var(--accent-color);
 }
@@ -609,7 +603,7 @@ img {
 }
 
 
-/* ____________Work list____________________ */
+/* ____________about work____________________ */
 
 
 .content-tittle {
