@@ -1,9 +1,12 @@
 @import "./utils/base";
 @import "./utils/variables";
+@import "./base/normalize";
 
 @import "./components/header";
-
 @import "./components/hero-section";
 @import "./components/modal-window";
 @import "./components/advantages";
-@import "./";
+@import "./components/clients";
+@import "./components/footer";
+
+
