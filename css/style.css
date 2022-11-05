@@ -184,12 +184,12 @@ img {
 }
 
 /* mix nav__item */
-.current {
+.nav__item--current {
     color: var(--accent-color);
 }
 /* _______________________________ */
 
-.nav__item.current::after {
+.nav__item.nav__item--current::after {
     content: "";
     position: absolute;
     display: block;
