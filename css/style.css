@@ -436,17 +436,27 @@ img {
 
 /* ___________Checkbox _______________*/
 
+.user-policy-checkbox__input:checked+label .user-policy-checkbox__frame {
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+}
 
-.user-policy-checkbox-desc {
+.user-policy-checkbox__desc {
+    display: inline-block;
     position: relative;
     margin: 0 auto 30px;
     padding-left: 23px;
-    font-size: 14px;
-    line-height: 1.71;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
-.user-policy-checkbox-frame {
+.user-policy-checkbox__frame {
     position: absolute;
     display: flex;
     align-items: center;
@@ -465,35 +475,18 @@ img {
     transition: border-color var(--tran-dur-and-tim-fun), background-color var(--tran-dur-and-tim-fun);
 }
 
-.user-policy-checkbox-frame:hover {
+.user-policy-checkbox__frame:hover {
     border-color: var(--accent-color);
 }
 
-.user-policy-checkbox-input:checked+label .user-policy-checkbox-frame {
-    border-color: var(--accent-color);
-    background-color: var(--accent-color);
-}
-
-.user-policy-checkbox-icon {
+.user-policy-checkbox__icon {
     fill: var(--second-btn-color);
 }
 
-.user-policy-checkbox-link {
+.user-policy-checkbox__link {
     font-size: 14px;
     line-height: 1.71;
     color: var(--accent-color);
-}
-
-.user-policy-checkbox-desc {
-    display: inline-block;
-    margin-bottom: 30px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7142;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
 }
 
 .modal-button-send {

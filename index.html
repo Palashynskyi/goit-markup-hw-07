@@ -99,16 +99,18 @@
                 >Коментар
                 <textarea name="user_messege" placeholder="Введіть текст" class="form-textarea__field"></textarea>
               </label>
-              <input type="checkbox" id="user_policy" name="user_policy" class="user-policy-checkbox-input visually-hidden" />
-              <label for="user_policy" class="user-policy-checkbox-desc">
-                <span class="user-policy-checkbox-frame">
-                  <svg class="user-policy-checkbox-icon" width="11" height="8">
-                    <use href="./images/sprite.svg#icon-vector-v"></use>
-                  </svg>
-                </span>
-                Погоджуюся з розсилкою та приймаю
-                <a href="#" class="user-policy-checkbox-link">Умови договору</a>
-              </label>
+              <div class="user-policy-checkbox">
+                <input type="checkbox" id="user_policy" name="user_policy" class="user-policy-checkbox__input visually-hidden" />
+                <label for="user_policy" class="user-policy-checkbox__desc">
+                  <span class="user-policy-checkbox__frame">
+                    <svg class="user-policy-checkbox__icon" width="11" height="8">
+                      <use href="./images/sprite.svg#icon-vector-v"></use>
+                    </svg>
+                  </span>
+                  Погоджуюся з розсилкою та приймаю
+                  <a href="#" class="user-policy-checkbox__link">Умови договору</a>
+                </label>
+              </div>
               <button type="submit" class="modal-button-send link">Відправити</button>
             </form>
           </div>
