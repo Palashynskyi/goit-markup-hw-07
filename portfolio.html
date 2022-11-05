@@ -215,73 +215,75 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="footer-box">
-        <div class="container footer-container">
-          <div class="footer-box-left">
-            <div class="footer-logo">
-              <a href="./index.html" class="link"><span class="footer-logo-web">Web</span><span class="logo-alter">Studio</span></a>
-            </div>
-            <address>
-              <ul class="footer-list list">
-                <li class="footer-list-item">
-                  <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" title="Google map link" class="mail link">м. Київ, пр-т Лесі Українки, 26</a>
-                </li>
-                <li class="footer-list-item">
-                  <a href="mailto:info@devstudio.com" class="footer-item link">info@devstudio.com</a>
-                </li>
-                <li class="footer-list-item">
-                  <a href="tel:+380961111111" class="footer-item link">+38 096 111 11 11</a>
-                </li>
-              </ul>
-            </address>
+      <div class="container footer__container">
+        <div class="adress-thumb">
+          <div class="footer-logo">
+            <a href="./index.html" class="link"><span class="footer-logo-web">Web</span><span class="logo-alter">Studio</span></a>
           </div>
-          <div class="footer-box-right">
-            <h2 class="joined-tittle">Приєднуйтесь</h2>
-            <ul class="icon-footer-list flex list">
-              <li>
-                <a href="" class="icon-footer-link">
-                  <svg class="icon" width="20" height="20">
-                    <use href="./images/sprite.svg#icon-instagram"></use>
-                  </svg>
-                </a>
+          <address>
+            <ul class="adress-list">
+              <li class="adress-list__item">
+                <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" title="Google map link" class="adress-list__map-link"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
               </li>
-              <li>
-                <a href="" class="icon-footer-link">
-                  <svg class="icon" width="20" height="20">
-                    <use href="./images/sprite.svg#icon-twitter"></use>
-                  </svg>
-                </a>
+              <li class="adress-list__item">
+                <a href="mailto:info@devstudio.com" class="adress-list__link">info@devstudio.com</a>
               </li>
-              <li>
-                <a href="" class="icon-footer-link">
-                  <svg class="icon" width="20" height="20">
-                    <use href="./images/sprite.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="" class="icon-footer-link">
-                  <svg class="icon" width="20" height="20">
-                    <use href="./images/sprite.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
+              <li class="adress-list__item">
+                <a href="tel:+380961111111" class="adress-list__link">+38 096 111 11 11</a>
               </li>
             </ul>
-          </div>
-          <div class="subscribe">
-            <h2 class="subscribe-tittle">Підпишіться на розсилку</h2>
-            <form class="form-thumb">
-              <label for="" class="subscribe-form">
-                <input type="email" name="email" placeholder="E-mail" />
-              </label>
-              <button type="submit" class="footer-button">
-                Підписатися
-                <svg class="icon" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-send"></use>
+          </address>
+        </div>
+        <div class="joined-thumb">
+          <h2 class="joined-tittle">Приєднуйтесь</h2>
+          <!-- __________________________________________BLOCK-2_______________________________________ -->
+          <ul class="social-list">
+            <li>
+              <a href="" class="social-list__link social-list__link--color">
+                <svg class="social-list__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
-              </button>
-            </form>
-          </div>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-list__link social-list__link--color">
+                <svg class="social-list__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-list__link social-list__link--color">
+                <svg class="social-list__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-list__link social-list__link--color">
+                <svg class="social-list__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <!-- _______________________________________________________________________________________________________ -->
+        </div>
+        <div class="subscribe-thumb">
+          <h2 class="subscribe-tittle">Підпишіться на розсилку</h2>
+          <form class="subscribe-form">
+            <label for="#" class="subscribe-form__label">
+              <input type="email" name="email" placeholder="E-mail" />
+            </label>
+            <button type="submit" class="footer-button">
+              Підписатися
+              <svg class="footer-button__icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
