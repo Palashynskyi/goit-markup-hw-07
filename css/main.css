@@ -441,7 +441,6 @@ img {
   padding-right: 15px;
 }
 
-/* _____________Footer_____________ */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -487,7 +486,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* __________ADREES___________________ */
 .adress-list {
   list-style: none;
 }
@@ -531,7 +529,6 @@ img {
   color: var(--accent-color);
 }
 
-/* ____________JOINED______________ */
 .joined-tittle {
   font-family: "Roboto";
   font-style: normal;
@@ -543,17 +540,15 @@ img {
   color: #FFFFFF;
 }
 
-/* ___________BLOCK-2_____ */
 .social-list__link--color {
   background-color: var(--footer-link-bg-color);
   color: var(--second-btn-color);
 }
 
-.social-list__icon {
+.social-list__icon--white {
   color: var(--second-btn-color);
 }
 
-/* __________Footer Subscribe_______ */
 .subscribe-thumb {
   margin-left: 93px;
 }
