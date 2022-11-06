@@ -604,39 +604,6 @@ body {
   padding-right: 15px;
 }
 
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-decoration: none;
-  color: inherit;
-  margin-right: 93px;
-}
-.logo__text-web {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  color: var(--accent-color);
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-}
-.logo__text-studio {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  color: var(--logo-black-color);
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-}
-
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -801,6 +768,61 @@ body {
   background-color: var(--second-bt-bg);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 93px;
+}
+.logo__text-web {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.logo__text-studio {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: var(--logo-black-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+.footer-logo__text-web {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+}
+.footer-logo__text-studio {
+  color: var(--second-btn-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
 }
 
 .backdrop {
