@@ -11,11 +11,11 @@
 
 .advantages__item {
     width: calc((100% - 90px) / 4);
-}
 
-.advantages__item:not(:last-child) {
-    margin-right: 30px;
-    justify-content: space-between;
+    &:not(:last-child) {
+            margin-right: 30px;
+            justify-content: space-between;
+        }
 }
 
 .advantages__tittle {

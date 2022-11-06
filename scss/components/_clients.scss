@@ -20,10 +20,10 @@
     display: flex;
     height: 92px;
     width: calc(100%/6 - 30px/6*5);
-}
 
-.client-list__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .client-list__link {
@@ -37,13 +37,12 @@
     justify-content: center;
     color: var(--icon-prymary-color);
     transition: color var(--tran-dur-and-tim-fun);
-}
 
-.client-list__link:hover,
-.client-list__link:focus {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-    fill: currentColor;
+    &:hover, &:focus {
+            color: var(--accent-color);
+            border-color: var(--accent-color);
+            fill: currentColor;
+        }
 }
 
 .client-list__icon {

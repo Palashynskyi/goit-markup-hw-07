@@ -18,10 +18,10 @@
 .work-item {
     display: flex;
     justify-content: space-between;
-}
 
-.work-item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .content {
@@ -37,13 +37,11 @@
 
 .work-item__overlay {
     position: relative;
-    content: "";
 }
 
 .work-item-comment {
     display: flex;
     position: absolute;
-    content: "";
     height: 70px;
     width: 100%;
     bottom: 0;

@@ -5,10 +5,9 @@
     background-color: var(--head-footter-bgc);
 }
 
-.footer__container {
+.container--flex {
     display: flex;
     align-items: baseline;
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -51,10 +50,9 @@
 
 .adress-list__item {
     display: block;
-}
-
-.adress-list__item:not(:last-child) {
-    margin-bottom: 9px;
+    &:not(:last-child) {
+            margin-bottom: 9px;
+    }
 }
 
 .adress-list__link {
@@ -68,11 +66,9 @@
     line-height: 1.1721;
     letter-spacing: 0.02em;
     transition: color var(--tran-dur-and-tim-fun);
-}
-
-.adress-list__link:hover,
-.adress-list__link:focus {
-    color: var(--accent-color);
+        &:hover, &:focus {
+            color: var(--accent-color);
+        }
 }
 
 .adress-list__map-link {
@@ -85,11 +81,10 @@
     line-height: 1.7142;
     letter-spacing: 0.03em;
     transition: color var(--tran-dur-and-tim-fun);
-}
-
-.adress-list__map-link:hover,
-.adress-list__map-link:focus {
-    color: var(--accent-color);
+        &:hover,
+            &:focus {
+                color: var(--accent-color);
+            }
 }
 
 /* ____________JOINED______________ */
@@ -102,50 +97,62 @@
     line-height: 1.1428;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
 /* ___________BLOCK-2_____ */
 
-.social-list {
-    margin-top: 16px;
-    justify-content: center;
-    display: flex;
-    list-style: none;
-}
+// .social-list {
+//     margin-top: 16px;
+//     justify-content: center;
+//     display: flex;
+//     list-style: none;
+// }
 
-.social-list__link {
-    display: flex;
-    margin-right: 10px;
-    color: var(--icon-prymary-color);
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    transition: background-color var(--tran-dur-and-tim-fun);
-}
+// .social-list__link {
+//     display: flex;
+//     margin-right: 10px;
+//     color: var(--icon-prymary-color);
+//     width: 44px;
+//     height: 44px;
+//     border-radius: 50%;
+//     align-items: center;
+//     justify-content: center;
+//     transition: background-color var(--tran-dur-and-tim-fun);
+// }
 
 .social-list__link--color {
     background-color: var(--footer-link-bg-color);
     color: var(--second-btn-color);
 }
 
-.social-list__link:hover,
-.social-list__link:focus {
-    color: var(--second-btn-color);
-    background-color: var(--accent-color);
-}
+// .social-list__link:hover,
+// .social-list__link:focus {
+//     color: var(--second-btn-color);
+//     background-color: var(--accent-color);
+// }
 
 .social-list__icon {
-    fill: currentColor;
+    color: var(--second-btn-color);
 }
 
 /* __________Footer Subscribe_______ */
 
 .subscribe-thumb {
     margin-left: 93px;
+    & input {
+        width: 358px;
+        height: 50px;
+        padding: 15px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background-color: var(--footer-background-color);
+
+        color: var(--mail-tel-color);
+        font-size: 16px;
+        line-height: 1.15;
+    }
 }
 
 .subscribe-tittle {
@@ -163,20 +170,6 @@
 .subscribe-form {
     display: flex;
     gap: 12px;
-}
-
-.subscribe-thumb input {
-    width: 358px;
-    height: 50px;
-    padding: 15px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: var(--footer-background-color);
-
-    color: var(--mail-tel-color);
-    font-size: 16px;
-    line-height: 1.15;
 }
 
 /* _________________BUTTON____________________ */
