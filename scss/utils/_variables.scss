@@ -1,28 +1,26 @@
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
 }
 
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
-.link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.flex {
-    display: flex;
+:root {
+    --head-footter-bgc: #2F303A;
+    --primary-text-color: #757575;
+    --second-text-color: #212121;
+    --accent-color: #2196F3;
+    --second-bg-color: #F5F4FA;
+    --second-btn-color: #FFFFFF;
+    --logo-black-color: #000000;
+    --second-bt-bg: #188CE8;
+    --hdr-border-color: #ECECEC;
+    --work-card-border-color: #EEEEEE;
+    --features-card-bg: #F5F4FA;
+    --icon-prymary-color: #AFB1B8;
+    --footer-link-bg-color: rgba(255, 255, 255, 0.1);
+    --tran-dur-and-tim-fun: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
