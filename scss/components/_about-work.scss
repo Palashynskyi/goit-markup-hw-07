@@ -9,6 +9,12 @@
     letter-spacing: 0.03em;
 }
 
+.work-lists {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
 .work-item {
     display: flex;
     justify-content: space-between;
@@ -21,6 +27,7 @@
 .content {
     width: 100%;
     margin: 0 auto;
+
     background-color: var(--second-btn-color);
 }
 
@@ -30,11 +37,13 @@
 
 .work-item__overlay {
     position: relative;
+    content: "";
 }
 
 .work-item-comment {
     display: flex;
     position: absolute;
+    content: "";
     height: 70px;
     width: 100%;
     bottom: 0;
@@ -54,5 +63,6 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
     color: #FFFFFF;
 }

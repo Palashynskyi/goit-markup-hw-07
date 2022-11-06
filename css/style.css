@@ -608,7 +608,6 @@ img {
 
 .content-tittle {
     padding-bottom: 50px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -617,6 +616,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .work-item {
     display: flex;
     justify-content: space-between;
