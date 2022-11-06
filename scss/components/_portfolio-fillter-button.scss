@@ -1,0 +1,17 @@
+.filter-tittle {
+    color: var(--second-btn-color);
+}
+
+.filter-list {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-item {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.filter-item:not(:last-child) {
+    margin-right: 8px;
+}
