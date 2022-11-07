@@ -11,7 +11,6 @@
     width: 100%;
     height: 50px;
     border-radius: 4px;
-    margin-bottom: 200px;
     cursor: pointer;
     color: var(--second-btn-color);
     background-color: var(--accent-color);
@@ -25,10 +24,10 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: background-color var(--tran-dur-and-tim-fun), box-shadow var(--tran-dur-and-tim-fun);
 
-    &:hover, :focus {
-            background-color: var(--second-bt-bg);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
-    }
+    &:hover, &:focus {
+        background-color: var(--second-bt-bg);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+}
 }
 
 .button--filter-btn {
@@ -47,10 +46,10 @@
     letter-spacing: 0.03em;
     transition: background-color var(--tran-dur-and-tim-fun), box-shadow var(--tran-dur-and-tim-fun);
 
-    &:hover, :focus {
-            color: var(--second-btn-color);
-            background-color: var(--accent-color);
-            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    &:hover, &:focus {
+        color: var(--second-btn-color);
+        background-color: var(--accent-color);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
 }
 
@@ -76,7 +75,7 @@
     letter-spacing: 0.06em;
     transition: background-color var(--tran-dur-and-tim-fun), box-shadow var(--tran-dur-and-tim-fun);
 
-    &:hover, :focus {
+    &:hover, &:focus {
         background-color: var(--second-bt-bg);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
     }

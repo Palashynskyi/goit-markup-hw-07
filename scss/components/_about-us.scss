@@ -5,8 +5,7 @@
 }
 
 .about__tittle {
-    padding-bottom: 50px;
-    padding-top: 94px;
+    margin-bottom: 50px;
     color: var(--second-text-color);
     font-family: 'Roboto';
     font-style: normal;
@@ -26,7 +25,6 @@
 .about__item {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 94px;
     text-align: center;
 }
 

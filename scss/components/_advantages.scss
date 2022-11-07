@@ -13,9 +13,9 @@
     width: calc((100% - 90px) / 4);
 
     &:not(:last-child) {
-            margin-right: 30px;
-            justify-content: space-between;
-        }
+        margin-right: 30px;
+        justify-content: space-between;
+    }
 }
 
 .advantages__tittle {

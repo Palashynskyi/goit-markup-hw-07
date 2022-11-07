@@ -83,9 +83,9 @@
     transition: border-color var(--tran-dur-and-tim-fun);
 
     &:focus {
-            color: var(--accent-color);
-            border-color: var(--accent-color);
-        }
+        color: var(--accent-color);
+        border-color: var(--accent-color);
+    }
     
     &:focus+.form-input__icon {
         fill: var(--accent-color);
@@ -128,9 +128,9 @@
     transition: border-color var(--tran-dur-and-tim-fun);
 
     &:focus {
-            color: var(--accent-color);
-            border-color: var(--accent-color);
-        }
+        color: var(--accent-color);
+        border-color: var(--accent-color);
+    }
 }
 
 .user-policy-checkbox__input:checked+label .user-policy-checkbox__frame {
@@ -205,10 +205,10 @@
     cursor: pointer;
     transition: background-color var(--tran-dur-and-tim-fun), box-shadow var(--tran-dur-and-tim-fun);
 
-        &:hover, &:focus {
-            background-color: var(--second-bt-bg);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        }
+    &:hover, &:focus {
+        background-color: var(--second-bt-bg);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
 }
 
 .btn-modal-close {
@@ -224,12 +224,16 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
     cursor: pointer;
+
+    &:hover .modal-close-icon, &:focus-within .modal-close-icon {
+        fill: var(--accent-color);
+    }
 }
 
-.btn-modal-close:hover .modal-close-icon,
-.btn-modal-close:focus-within .modal-close-icon {
-    fill: var(--accent-color);
-}
+// .btn-modal-close:hover .modal-close-icon,
+// .btn-modal-close:focus-within .modal-close-icon {
+//     fill: var(--accent-color);
+// }
 
 .backdrop.is-hidden {
     opacity: 0;

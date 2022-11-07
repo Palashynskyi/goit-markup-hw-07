@@ -47,15 +47,15 @@
 
 .adress-list__item {
     display: block;
+
     &:not(:last-child) {
-            margin-bottom: 9px;
+        margin-bottom: 9px;
     }
 }
 
 .adress-list__link {
     text-decoration: none;
     color: var(--primary-text-color);
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -63,9 +63,10 @@
     line-height: 1.1721;
     letter-spacing: 0.02em;
     transition: color var(--tran-dur-and-tim-fun);
-        &:hover, &:focus {
-            color: var(--accent-color);
-        }
+
+    &:hover, &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .adress-list__map-link {
@@ -78,10 +79,10 @@
     line-height: 1.7142;
     letter-spacing: 0.03em;
     transition: color var(--tran-dur-and-tim-fun);
-        &:hover,
-            &:focus {
-                color: var(--accent-color);
-            }
+
+    &:hover, &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .joined-tittle {
@@ -107,6 +108,7 @@
 
 .subscribe-thumb {
     margin-left: 93px;
+
     & input {
         width: 358px;
         height: 50px;
@@ -115,7 +117,6 @@
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 4px;
         background-color: var(--footer-background-color);
-
         color: var(--mail-tel-color);
         font-size: 16px;
         line-height: 1.15;

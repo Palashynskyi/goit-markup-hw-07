@@ -2,16 +2,19 @@
     color: var(--second-btn-color);
 }
 
-.filter-list {
+.filter {
     display: flex;
+    list-style: none;
     justify-content: center;
-}
-
-.filter-item {
-    display: block;
     margin-bottom: 50px;
+
 }
 
-.filter-item:not(:last-child) {
-    margin-right: 8px;
+.filter__item {
+    display: block;
+
+    &:not(:last-child) {
+        margin-right: 8px;
+    }
 }
+
